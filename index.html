@@ -1,0 +1,344 @@
+<!DOCTYPE HTML>
+<!--
+    Read Only by HTML5 UP
+    html5up.net | @ajlkn
+    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+    <head>
+        <title>Christopher Thierauf</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="stylesheet" href="assets/css/main.css" />
+        <link rel="stylesheet" href="assets/css/popup.css" />
+    </head>
+    <body class="is-preload">
+
+        <!-- Header -->
+        <section id="header">
+            <header>
+                <span class="image avatar"><img src="images/avatar.jpg" alt="" /></span>
+                <h1 id="logo"><a href="#">Christopher Thierauf</a></h1>
+                <p>Robotics research assistant and PhD student</p>
+            </header>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#about" class="active">About</a></li>
+                    <li><a href="#publications">Publications and Research</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#resume">Curriculum Vitae</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <footer>
+                <ul class="icons">
+                    <li><a href="https://www.linkedin.com/in/cthierauf" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                    <!--<li><a href="www.researchgate.com" class="icon brands fa-researchgate"><span class="label">ResearchGate</span></a></li>-->
+                    <li><a href="https://github.com/thieraufc" class="icon brands fa-github"><span class="label">Github</span></a></li>
+                    <li><a href="mailto:chris@cthierauf.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+                </ul>
+            </footer>
+        </section>
+
+        <!-- Wrapper -->
+        <div id="wrapper">
+
+            <!-- Main -->
+            <div id="main">
+
+                <!-- One -->
+                <section id="about">
+                    <div class="image main" data-position="center">
+                        <img src="images/banner.jpg" alt="" />
+                    </div>
+                    <div class="container">
+                        <header class="major">
+                            <h2>Hello, World!</h2>
+                            <p>My name is Chris Thierauf.</p>
+                        </header>
+
+                        <p>I'm a robotics research assistant and PhD student at the <a href="http://hrilab.org">Human-Robot Interaction Lab</a> at Tufts University.
+                        I design, build, and program robots that help investigate how people and robots interact in human environments. <br />
+                        On this website, you can find more about my <a href="#publications">publications</a>, other past <a href="#projects">projects</a>, check out my <a href="#resume">curriculum vitae</a>, or <a href="#contact">get in touch</a>.</p>
+                    </div>
+
+                </section>
+
+                <!-- Two -->
+                <section id="publications">
+                    <div class="container">
+                        <h3>Graduate Research</h3>
+                        <p>My graduate level
+                        research began in September 2020. There are some
+                        publications in the works and one pending peer review,
+                        but nothing public as of yet. My research focus in on
+                        resilience in human-robot interaction, which has both
+                        practical and ethical implications.</p>
+                        <ul>
+                            <li> UVC Disinfection Robot. Published in ICRA.
+                                <i><a href="http://hrilab.tufts.edu/publications/conroy2021icra.pdf">read</a></i>
+                                <br>
+                                2021 Conference Paper (ICRA): Jonathan Conroy,
+                                <b>Christopher Thierauf</b>, Parker Rule, Evan Krause,
+                                Hugo Akitaya, Andrei Gonczi, Matias Korman,
+                                Matthias Scheutz. "Robot Development and Path
+                                Planning for Indoor Ultraviolet Light
+                                Disinfection", ICRA 2021.
+
+                            </li>
+                        </ul>
+                        <h3>Undergraduate Research</h3>
+                        <ul>
+                            <li>Spring 2019 lecture at LibrePlanet on 3D printing.
+                                <i><a href="https://archive.org/details/FreeSoftwareInThe3DPrintingCommunity">watch</a></i>
+                                <br>
+                                <b>C. Thierauf</b>, "Free
+                                Software in the 3D Printing Community",
+                                LibrePlanet, MIT, 2019.
+                            </li>
+                            <li>Summer 2018 undergraduate conference paper:
+                                <i><a href="https://ieeexplore.ieee.org/abstract/document/9244818">read</a></i>
+                                <br>
+                                <b>C. Thierauf</b>, "Networking 3D
+                                Printers with Printfarmer", IEEE MIT
+                                Undergraduate Research Symposium, 2018.
+                            </li>
+                            <li>Laser Scarecrow grant involvedment, summer 2018.
+                                <i><a href="https://www.sare.org/publications/2019-2020-report-from-the-field/northeast-sare/driving-birds-away-from-corn-fields-with-a-laser-scarecrow/">read</a></i>
+                                <br>
+                                Northeast SARE FNE18-893, "Laser Scarecrow
+                                Prototype"
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+
+                <section id="projects">
+                    <div class="container">
+                        <h3>Other projects and robots</h3>
+                        <div class="features">
+                            <!--h4>Graduate Level</h4-->
+                            I write code, including these ROS packages:
+                            <ul class="feature-icons">
+
+                                <li class="icon brands fa-github">
+                                    <b>gpio_control</b>
+                                    <br>
+                                    Package and python utilities to control
+                                    GPIO on Linux SoC's (Raspberry Pi, NVidia
+                                    Jetson, etc).
+                                    <br>
+                                    <a href="">Available as a ROS package</a> and via <br><code>apt-get</code>.
+                                </li>
+
+                                <li class="icon brands fa-github">
+                                    <b>discretized_movement</b>
+                                    <br>
+                                    Simplify the MoveIt action space through
+                                    cartesian discretization for reinforcement
+                                    learning applications.
+                                    <br>
+                                    <a href="">Available as a ROS package</a>.
+                                </li>
+
+                                <li class="icon brands fa-github">
+                                    <b>pybullet_simplified_fetch</b>
+                                    <br>
+                                    Simplified physics simulation environment
+                                    for the Fetch robot mobile manipulator.
+                                    <br>
+                                    <a href="">Available as a ROS package</a>.
+                                </li>
+
+
+                                <li class="icon brands fa-github">
+                                    <b>rosactive</b>
+                                    <br>
+                                    When working with several independent ROS
+                                    projects simultaneously, managing the
+                                    different workspaces and shell variables
+                                    can be difficult. rosactive is a CLI
+                                    utility to resolve this.
+                                    <br>
+                                    <a href="">Available as a ROS package</a>.
+                                </li>
+                            </ul>
+
+                            I also build stuff:
+
+                            <ul class="feature-icons">
+                                <li class="icon solid fa-cogs">
+                                    <b>Sledbot</b>
+                                    <br>
+                                    An autonomous, low-cost mobile robot capable of being configured to carry a variety of loads.
+                                    My contributions were to perform the electrical design, core control software, and wheel assembly.
+                                </li>
+                                <li class="icon solid fa-cogs">
+                                    <b>Plugbot</b>
+                                    <br>
+                                    A small robot initially designed to work with the Sledbot for the purpose of seeking out charging sources.
+                                    Later adapted to become a more extensible low-cost platform by combining 360-degree LIDAR, IMU, wheel odometry, and cameras.
+                                </li>
+                            </ul>
+
+                            <!--article>
+                                <a href="#sledbotpopup" class="image"><img src="images/pic01.jpg" alt="" /></a>
+                                <div class="inner">
+                                    <h4>Sledbot</h4>
+                                    <p>Robot designed to be a mobile, low-cost 'sled' capable of autonomous navigation and being extensible for other lab research. <br />
+                                    My contributions were to perform the electrical design, core control software, and wheel assembly.</p>
+                                </div>
+                            </article>
+
+                            <article>
+                                <a href="#plugbotpopup" class="image"><img src="images/pic02.jpg" alt="" /></a>
+                                <div class="inner">
+                                    <h4>Plugbot</h4>
+                                    <p>Smaller robot designed to work with the Sledbot by seeking out electrical outlets and providing tethered power for recharching.
+                                    Later adapted to being an extensible research/teaching platform. <br />
+                                    The plugbot combines a 360 degree laser, IMU, wheel odometry system, and camera into a 8x8x5in battery operated platform capable of autonomous SLAM.
+                                    </br>
+                                    I designed, built, and programmed all aspects of this robot.</p>
+                                </div>
+                            </article-->
+
+                            <h4>Undergraduate Level</h4>
+                            <!--article>
+                                <a href="#" class="image"><img src="images/mate_rov.png" alt="" /></a>
+                                <div class="inner">
+                                    <h4>IEEE MATE Underwater ROV</h4>
+                                    <p>I wrote the control code for 3 teleoperated underwater robots over the course of 4 years, half of which I served as the software project lead. I also worked on sensor interfaces and networking setups to create unique cohesive systems.</p>
+                                </div>
+                            </article>
+                            <article>
+                                <a href="#" class="image"><img src="images/enbarr_rov_top.jpg" alt="top view of enbarr ROV with arrows showing force vectors" /></a>
+                                <div class="inner">
+                                    <h4>Enbarr</h4>
+                                    <p>Bs.C Capstone project: mechanical, electrical, and software design for an extensible underwater research platform. Arrows in image show how linear movement is produced through a combination of linear forces, vertical thrusters are not mounted. A laser-cut metal plate produces the structure while silicone covers all components for waterproofing.</p>
+                                </div>
+                            </article>
+                            <article>
+                                <a href="#" class="image"><img src="images/laser_scarecrow.webp" alt="laser scarecrow unit" /></a>
+                                <div class="inner">
+                                    <h4>Laser Scarecrow</h4>
+                                    <p>Funded by Northeast SARE FNE18-893 to repel birds from using lasers, which are non-harmful to crops and animals. <br />
+                                    The system brought crop loss down by 85 percent at an order of magnitude cheaper than existing solutions while meeting grant requirements.</p>
+                                </div>
+                            </article>
+                            <article>
+                                <a href="#" class="image"><img src="images/spectral_digitizer_code.png" alt="" /></a>
+                                <div class="inner">
+                                    <h4>Spectral Digitizer</h4>
+                                    <p>Project goal was to create a machine to digitize physical records of elemental spectra per request of NIST.
+                                    I wrote code to control stepper motor at high precision at the direction of experienced engineers.</p>
+                                </div>
+                            </article-->
+
+                            <ul class="feature-icons">
+                                <li class="icon solid fa-cogs">
+                                    <b>Underwater ROV (Undergraduate IEEE Chapter project)</b>
+                                    <br>
+                                    I wrote the control code for 3 teleoperated
+                                    underwater robots over the course of 4
+                                    years, half of which I served as the
+                                    software project lead. I also worked on
+                                    sensor interfaces and networking setups to
+                                    create unique cohesive systems.
+                                </li>
+                                <li class="icon solid fa-cogs">
+                                    <b>"Enbarr" (Bs.C Capstone project)</b>
+                                    <br>
+                                    Mechanical, electrical, and software design
+                                    for an extensible underwater research
+                                    platform. A laser-cut metal plate produces
+                                    the structure while silicone covers all
+                                    components for waterproofing.
+                                </li>
+                                <li class="icon solid fa-cogs">
+                                    <b>Laser Scarecrow</b>
+                                    <br>
+                                    Funded by Northeast SARE FNE18-893 to repel
+                                    birds from using lasers, which are
+                                    non-harmful to crops and animals.  The
+                                    system brought crop loss down by 85 percent
+                                    at an order of magnitude cheaper than
+                                    existing solutions while meeting grant
+                                    requirements.
+                                </li>
+                                <li class="icon solid fa-cogs">
+                                    <b>Spectral Digitizer</b>
+                                    <br>
+                                    Project goal was to create a machine to
+                                    digitize physical records of elemental
+                                    spectra per request of NIST.  I wrote code
+                                    to control stepper motor at high precision
+                                    at the direction of experienced engineers.
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </section>
+
+                <section id="resume">
+                    <div class="container">
+                        <h3>Curriculum Vitae</h3>
+                        <p>My full curriculum vitae can be downloaded <strong><a href="./assets/files/thieraufc_cv.pdf">here</a></strong>. Here's a summary of the important bits:</p>
+                        <ul>
+                            <li><strong>Undergoing PhD and Masters</strong> degrees at Tufts University (Human-Robot Interaction via <strong>joint degree in Computer Science and Psychology</strong>, expected completion 2022/2026)</li>
+                            <li>Completed <strong>B.Sc</strong> in <strong>Computer Science</strong>, minoring in <strong>Applied Mathematics</strong>, from the Wentworth Institute of Technology</li>
+                            <li>Current occupation is via full <strong>research assistantship</strong></li>
+                            <li>Past work experience as <strong>Undergraduate Research Assistant</strong> in two labs and as a <strong>Software Engineer</strong><strong> Co-op</strong></li>
+                            <li>Diverse technical skillset includes:
+                                <ul>
+                                    <li>Numerous programming languages (<strong>comfort in Python, Java, C, C++</strong>, knowledge of others)</li>
+                                    <li>Robotics and computer vision frameworks (advanced knowledge of <strong>ROS</strong>, comfort in <strong>ROS 2.0, OpenCV</strong>, and others)</li>
+                                    <li>Familiarity with multiple common robotics research platforms (<strong>PR2, Kinova, Fetch, UR5</strong>), and some standards for creating new platforms</li>
+                                    <li>Familiar with CAD design tools (Onhape, FreeCAD, Inventor) for the purpose of documentation and manufacturing</li>
+                                    <li>Comfortable with manufacturing using FDM/SLA <strong>3D printing</strong> technologies, capable of using <strong>mills, lathes</strong> (manual, conversational, g-code)</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    </div>
+                </section>
+
+                <section id="contact">
+                    <div class="container">
+                        <h3>Contact Me</h3>
+                        <p>I'm in a couple of different corners of the internet. You can find me on
+                        <a href="#" class="icon brands fa-linkedin"><span class="label"></span> LinkedIn</a>,
+                        <!--<a href="#" class="icon brands fa-researchgate"><span class="label"></span> ResearchGate</a>,-->
+                        or <a href="#" class="icon brands fa-github"><span class="label"></span> GitHub</a>. If you'd like to
+                        get in touch with me directly, email me: <!--a href="" class="icon fa-envelope"--><span class="label"></span> chris (at) cthierauf.com<!--/a--><br />
+                        <!--My OrcID is [].--></p>
+
+                    </div>
+                </section>
+            </div>
+
+            <!-- Footer -->
+            <section id="footer">
+                <div class="container">
+                    <ul class="copyright">
+                        <li>&copy; Chris Thierauf.</li>
+                        <li>Hacked from an <a href="http://html5up.net">HTML5 UP</a> template</li>
+                        <li>Header image from <a href="http://unsplash.com">unsplash</a></li>
+                        <li>I wrote this in Vim because I'm cool like that</li>
+                    </ul>
+                </div>
+            </section>
+
+        </div>
+
+        <!-- Scripts -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/jquery.scrollex.min.js"></script>
+        <script src="assets/js/jquery.scrolly.min.js"></script>
+        <script src="assets/js/browser.min.js"></script>
+        <script src="assets/js/breakpoints.min.js"></script>
+        <script src="assets/js/util.js"></script>
+        <script src="assets/js/main.js"></script>
+
+    </body>
+</html>
