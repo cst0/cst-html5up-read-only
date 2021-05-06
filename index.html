@@ -75,39 +75,60 @@
                         resilience in human-robot interaction, which has both
                         practical and ethical implications.</p>
                         <ul>
-                            <li> UVC Disinfection Robot. Published in ICRA.
-                                <i><a href="http://hrilab.tufts.edu/publications/conroy2021icra.pdf">read</a></i>
+                            <li> UVC Disinfection Robot published in ICRA. <button onclick="reveal('icra2021')"> Read More </button>
+                                <div id="icra2021" class="dropdown" style="display:none">
+                                Paper on creating a robot and an algorithm to
+                                provide formal disinfection guarantees for
+                                UVC-light based robots at a substantially
+                                reduced cost point.
                                 <br>
-                                2021 Conference Paper (ICRA): Jonathan Conroy,
+                                You can read the paper <i><a href="http://hrilab.tufts.edu/publications/conroy2021icra.pdf">here</a></i>
+                                <br>
+                                Jonathan Conroy,
                                 <b>Christopher Thierauf</b>, Parker Rule, Evan Krause,
                                 Hugo Akitaya, Andrei Gonczi, Matias Korman,
                                 Matthias Scheutz. "Robot Development and Path
                                 Planning for Indoor Ultraviolet Light
                                 Disinfection", ICRA 2021.
-
+                                </div>
                             </li>
                         </ul>
                         <h3>Undergraduate Research</h3>
                         <ul>
-                            <li>Spring 2019 lecture at LibrePlanet on 3D printing.
-                                <i><a href="https://archive.org/details/FreeSoftwareInThe3DPrintingCommunity">watch</a></i>
-                                <br>
-                                <b>C. Thierauf</b>, "Free
-                                Software in the 3D Printing Community",
-                                LibrePlanet, MIT, 2019.
+                            <li>Lecture on 3D printing and Free Software at LibrePlanet, Spring 2019. <button onclick="reveal('printing')"> Read More </button>
+                                <div id="printing" class="dropdown" style="display:none">
+                                    A talk I gave on 3D printing and its growth
+                                    alongside the Free software/hardware
+                                    environment, as well as how 3D printing can
+                                    be used to further software/hardware
+                                    freedom in various industries.
+                                    <br>
+                                    You can watch the full presentation <i><a href="https://archive.org/details/FreeSoftwareInThe3DPrintingCommunity">here.</a></i>
+                                    <br>
+                                    <b>C. Thierauf</b>, "Free
+                                    Software in the 3D Printing Community",
+                                    LibrePlanet, MIT, 2019.
+                                </div>
                             </li>
-                            <li>Summer 2018 undergraduate conference paper:
-                                <i><a href="https://ieeexplore.ieee.org/abstract/document/9244818">read</a></i>
+                            <li>Undergraduate conference paper on networking 3D printers, Summer 2018. <button onclick="reveal('printfarmer')"> Read More </button>
+                                <div id="printfarmer" class="dropdown" style="display:none">
+                                I created and wrote a paper on a tool called "printfarmer", which enabled networking 3d printers together for automated print farms.
+                                <br>
+                                You can read the paper <i><a href="https://ieeexplore.ieee.org/abstract/document/9244818">here</a></i>
                                 <br>
                                 <b>C. Thierauf</b>, "Networking 3D
                                 Printers with Printfarmer", IEEE MIT
                                 Undergraduate Research Symposium, 2018.
+                                </div>
                             </li>
-                            <li>Laser Scarecrow grant involvedment, summer 2018.
-                                <i><a href="https://www.sare.org/publications/2019-2020-report-from-the-field/northeast-sare/driving-birds-away-from-corn-fields-with-a-laser-scarecrow/">read</a></i>
+                            <li>Laser Scarecrow grant involvement, summer 2018. <button onclick="reveal('laserscarecrow')"> Read More </button>
+                                <div id="laserscarecrow" class="dropdown" style="display:none">
+                                I helped to create a device called a "Laser Scarecrow", which uses lasers to emulate movement to scare birds away from crops. The grant issued focused on creating one of these systems for substantially cheaper than existing systems.
+                                The grant issuer wrote an article on it you can read <i><a href="https://www.sare.org/publications/2019-2020-report-from-the-field/northeast-sare/driving-birds-away-from-corn-fields-with-a-laser-scarecrow/">here</a></i>
                                 <br>
                                 Northeast SARE FNE18-893, "Laser Scarecrow
                                 Prototype"
+                                </div>
                             </li>
                         </ul>
                     </div>
@@ -339,6 +360,15 @@
         <script src="assets/js/breakpoints.min.js"></script>
         <script src="assets/js/util.js"></script>
         <script src="assets/js/main.js"></script>
-
+        <script>
+        function reveal(divname) {
+          var x = document.getElementById(divname);
+          if (x.style.display === "none") {
+            x.style.display = "block";
+          } else {
+            x.style.display = "none";
+          }
+        }
+        </script>
     </body>
 </html>
