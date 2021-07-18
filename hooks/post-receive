@@ -1,0 +1,2 @@
+#!/bin/sh
+GIT_WORK_TREE=/home/dh_9h5r2e/cthierauf.com git checkout -f
