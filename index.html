@@ -19,15 +19,15 @@
             <header>
                 <span class="image avatar"><img src="images/avatar.jpg" alt="" /></span>
                 <h1 id="logo"><a href="#">Christopher Thierauf</a></h1>
-                <p>Robotics research assistant and PhD student</p>
+                <p>Robotics research assistant</br>PhD student</p>
             </header>
             <nav id="nav">
                 <ul>
                     <li><a href="#about" class="active">About</a></li>
-                    <li><a href="#publications">Publications and Research</a></li>
-                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#publications" class="inactive">Publications and Research</a></li>
+                    <li><a href="#project" class="inactive">Projects</a></li>
                     <li><a href="#resume">Curriculum Vitae</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <!--li><a href="#contact">Contact</a></li-->
                 </ul>
             </nav>
             <footer>
@@ -36,6 +36,9 @@
                     <!--<li><a href="www.researchgate.com" class="icon brands fa-researchgate"><span class="label">ResearchGate</span></a></li>-->
                     <li><a href="https://github.com/cst0" class="icon brands fa-github"><span class="label">Github</span></a></li>
                     <li><a href="mailto:chris@cthierauf.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+                </ul>
+                <ul class="icons">
+                    <li><a href="https://orcid.org/0000-0002-5650-2574"><span class="label">ORCiD</span></a></li>
                 </ul>
             </footer>
         </section>
@@ -59,7 +62,7 @@
 
                         <p>I'm a robotics research assistant and PhD student at the <a href="http://hrilab.org">Human-Robot Interaction Lab</a> at Tufts University.
                         I design, build, and program robots that help investigate how people and robots interact in human environments. <br />
-                        On this website, you can find more about my <a href="#publications">publications</a>, other past <a href="#projects">projects</a>, check out my <a href="#resume">curriculum vitae</a>, or <a href="#contact">get in touch</a>.</p>
+                        On this website, you can find more about my <a href="#publications">publications</a>, other past <a href="#project">projects</a>, check out my <a href="#resume">curriculum vitae</a>, or <a href="#contact">get in touch</a>.</p>
                     </div>
 
                 </section>
@@ -70,11 +73,26 @@
                         <h3>Graduate Research</h3>
                         <p>
                         My graduate level research began in September 2020.
+                        Two papers are currently pending peer review.
                         Research that has passed peer review is available
                         below.
                         </p>
+
                         <ul>
-                            <li> UVC Disinfection Robot published in ICRA. <button style="float: right; clear:right;" onclick="reveal('icra2021')">More</button>
+                            <li>Curriculum learning on simulated and real-world robots (published in AAMAS). <button style="float: right; clear:right;" onclick="reveal('aamas2022')">More</button>
+                                <div id="aamas2022" class="dropdown" style="display:none">
+                                    Demonstrated technique for complex multi-step problem solving by enabling a robot to learn through auto-generated curriculums.
+                                    <br>
+                                    You can read the paper <i><a href="https://arxiv.org/abs/2204.04823">here</a></i>
+                                    <br>
+                                    Yash Shukla,
+                                    <b>Christopher Thierauf</b>, Ramtin Hosseini, Jivko Sinapov. “ACuTE: Automatic Curriculum Transfer from Simple to Complex Environments”, AAMAS 2022.
+                                </div>
+                            </li>
+                        </ul>
+
+                        <ul>
+                            <li> UVC Disinfection Robot (published in ICRA). <button style="float: right; clear:right;" onclick="reveal('icra2021')">More</button>
                                 <div id="icra2021" class="dropdown" style="display:none">
                                     Paper on creating a robot and an algorithm to
                                     provide formal disinfection guarantees for
@@ -92,6 +110,7 @@
                                 </div>
                             </li>
                         </ul>
+
                         <h3>Undergraduate Research</h3>
                         <ul>
                             <li>Lecture on 3D printing and Free Software at LibrePlanet, Spring 2019.
